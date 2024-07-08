@@ -1,0 +1,35 @@
+body
+{
+	background: #eee;
+	margin: 5px;
+}
+
+.menu, .secondary
+{
+	background: #fff !important;
+}
+
+.likesFlotes
+{
+	position: absolute;
+}
+
+.likesFlotes i
+{
+	font-size: 255px;
+	color: rgba(244, 59, 92, 0.8);
+	animation: tilt-n-move-shaking;
+}
+
+@keyframes tilt-n-move-shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.pink
+{
+	color: rgba(244, 59, 92, 1) !important;
+}
