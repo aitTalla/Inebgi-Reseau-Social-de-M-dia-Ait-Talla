@@ -17,18 +17,20 @@
 
 ## Captures d'Écran
 
-![Capture d'écran de la Page d'Accueil](screenshots/homepage.png)
+![Capture d'écran de la Page d'Accueil](capture/Screenshot1.png)
 *Page d'accueil de l'application inebgi*
 
-![Capture d'écran de la Page de Profil](screenshots/profile.png)
+![Capture d'écran de la Page de Profil](capture/Screenshot2.png)
 *Exemple de page de profil utilisateur*
 
+![Capture d'écran de la Page de Connexion](capture/Screenshot3.png)
+*Exemple de page de Connexion*
 ## Installation
 
 Pour installer et exécuter ce projet localement, suivez ces étapes :
 
-1. Clonez ce repository : `git clone https://github.com/votre-utilisateur/inebgi.git`
-2. Importez la base de données depuis le fichier `database.sql`.
+1. Clonez ce repository : `git clone https://github.com/aitTalla/Inebgi-Reseau-Social-de-M-dia-Ait-Talla.git`
+2. Importez la base de données depuis le fichier `inibgiDB_dump.sql`.
 3. Configurez les informations de connexion à la base de données dans `config.php`.
 4. Lancez un serveur PHP local : `php -S localhost:8000`
 5. Ouvrez votre navigateur et accédez à `http://localhost:8000`
@@ -39,7 +41,7 @@ Les contributions sont les bienvenues ! Pour des suggestions, des fonctionnalit�
 
 ## Auteur
 
-Ce projet a été développé par [Votre Nom](https://github.com/votre-utilisateur).
+Ce projet a été développé par [Ait Talla](https://aittalla-corporation.web.app).
 
 ## Licence
 
